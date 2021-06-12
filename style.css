@@ -9,7 +9,7 @@
    }
 
     body{
-    background-image: url(file:///C:/Users/jankl/Documents/GitHub/Side.Games/pictures/background_4.PNG);
+    background-image: url(background_4.PNG);
     -webkit-background-size:cover;
     background-size:cover;
     background-position: center center;
