@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
     }
+
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+   }
+
+
     body{
         background-color: rgb(41, 41, 41);
         background-size:cover;
@@ -9,4 +16,14 @@
         height: 100vh;
         color: white;
         }
+
+    .button_back{
+        background: #555555;
+        color: #fff;
+        border: 3px solid rgb(106, 6, 116); 
+        font-size: 20px;
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
 

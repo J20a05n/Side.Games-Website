@@ -36,8 +36,15 @@
         opacity: 0.3;
     }
 
+    .news_title{
+        color: rgb(161, 127, 201);
+        text-decoration: underline;
+        font-size: 30px;
+        text-align: center;
+    }
+
     .news_heading{
-        font-size: xx-large;
+        font-size: 30px;
         text-align: center;
     }
 
