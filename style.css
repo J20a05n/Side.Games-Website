@@ -1,14 +1,15 @@
 *{
+
     margin: 0;
     padding: 0;
     }
-
     a, a:hover, a:focus, a:active {
         text-decoration: none;
         color: inherit;
    }
 
     body{
+        margin: 0;
     background-image: url(background_4.PNG);
     -webkit-background-size:cover;
     background-size:cover;
@@ -54,9 +55,11 @@
     }
 
     .Cat_Adventure_dropdown{
-        position: absolute;
-        left: 700px;
-        margin: 0 auto;
+        position:absolute; 
+        margin-left:-60px;
+        left:40%;
+        width:100px;
+        bottom:-140px;
     }
     .Cat_Adventure_dropdown ul{
     list-style: none;
@@ -95,9 +98,11 @@
     }
     
     .SAC_dropdown{
-    position: absolute;
-    left: 1050px;
-    margin: 0 auto;
+        position:absolute; 
+        margin-left:-40px;
+        left:60%;
+        width:100px;
+        bottom:-140px;
     }
     .SAC_dropdown ul{
     list-style: none;
@@ -144,21 +149,18 @@
         top: 180px;
         left: 1000px;
     }
-    .button_youtube{
-        background: #ff0000;
-        color: #fff;
-        border: 3px solid rgb(255, 0, 0); 
-        font-size: 20px;
-        position: relative;
-        top: 505px;
-        left: 460px;
-    }
-    .button_instagram{
-        background: #ff00b3;
-        color: #fff;
-        border: 3px solid rgb(255, 0, 242); 
-        font-size: 20px;
-        position: relative;
-        top: 550px;
-        left: 377px;
-    }
+    
+
+    .site-footer, .page-wrap:after {
+        /* .push must be the same height as footer */
+          height: 100px; 
+      }
+      .site-footer {
+        border: 10px solid rgb(161, 127, 201);
+        background-color: rgb(255, 255, 255);
+        opacity: 0.3;
+
+        
+      }
+
+    
