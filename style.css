@@ -9,19 +9,32 @@
    }
 
     body{
-        margin: 0;
     background-image: url(background_4.PNG);
     -webkit-background-size:cover;
     background-size:cover;
     background-position: center center;
-    height: 161vh;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    justify-content: flex-start;
+    margin: 0px;
+    width: 98vw;
     }
     .pic{
-        height: 25px;
+        height: 1201px;
     }
-    .title{
+    .title1{
         font-style: normal;
-        font-size: 100px;
+        font-size: calc(5px + (150 - 5) * ((100vw - 500px) / (1920 - 500)));
+        color: rgb(161, 127, 201);
+        text-align: center;
+    }
+    .title2{
+        font-style: normal;
+        font-size: calc(5px + (150 - 5) * ((100vw - 500px) / (1920 - 500)));
         color: rgb(161, 127, 201);
         text-align: center;
     }
@@ -30,8 +43,8 @@
     
     .news{
         border: 10px solid rgb(161, 127, 201);
-        width: 1100px;
-        height: 530px;
+        width: calc(250px + (1500 - 250) * ((100vw - 500px) / (1920 - 500)));
+        height: calc(250px + (1500 - 250) * ((100vw - 500px) / (1920 - 500)));
         margin: 0 auto ;
         background-color: rgb(255, 255, 255);
         opacity: 0.3;
@@ -40,18 +53,28 @@
     .news_title{
         color: rgb(161, 127, 201);
         text-decoration: underline;
-        font-size: 30px;
-        text-align: center;
+        font-size: calc(5px + (30 - 5) * ((100vw - 500px) / (1920 - 500)));
+                text-align: center;
     }
 
     .news_heading{
-        font-size: 30px;
-        text-align: center;
+        font-size: calc(5px + (30 - 5) * ((100vw - 500px) / (1920 - 500)));
+                text-align: center;
     }
 
     .news_content{
-        font-size: smaller;
-        text-align: left;
+        font-size: calc(5px + (20 - 5) * ((100vw - 500px) / (1920 - 500)));
+                text-align: left;
+    }
+
+    .button_older{
+        background: #555555;
+        color: #fff;
+        border: 3px solid rgb(106, 6, 116); 
+        font-size: 20px;
+        position: relative;
+        top: 180px;
+        left: 900px;
     }
 
     .Cat_Adventure_dropdown{
@@ -59,7 +82,7 @@
         margin-left:-60px;
         left:40%;
         width:100px;
-        bottom:-140px;
+        bottom:-250px;
     }
     .Cat_Adventure_dropdown ul{
     list-style: none;
@@ -102,7 +125,7 @@
         margin-left:-40px;
         left:60%;
         width:100px;
-        bottom:-140px;
+        bottom:-250px;
     }
     .SAC_dropdown ul{
     list-style: none;
@@ -140,21 +163,13 @@
     position: absolute;
     }
 
-    .button_older{
-        background: #555555;
-        color: #fff;
-        border: 3px solid rgb(106, 6, 116); 
-        font-size: 20px;
-        position: relative;
-        top: 180px;
-        left: 1000px;
-    }
+    
     
 
     .site-footer, .page-wrap:after {
         /* .push must be the same height as footer */
           height: 100px; 
-          width: 1330px;
+          width: 1320px;
           display:flex;
           vertical-align: middle;
           justify-content:center;
