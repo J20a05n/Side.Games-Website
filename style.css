@@ -85,9 +85,9 @@ header, footer {
     gap: 10px;
 }
 
-.youtube-link-btn {
+.youtube-link-btn, .youtube-link-btn:visited{
     background-color: red;
-    color: white;
+    color: white !important;
     border: none;
     padding: 10px 20px;
     text-decoration: none;
