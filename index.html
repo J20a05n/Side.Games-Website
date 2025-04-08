@@ -6,57 +6,50 @@
     <meta name="description" content="Official Side Games Website">
     <title>Side.Games</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="assets/side.games_logo.png">
+    <link rel="icon" type="image/webp" href="assets/side.games_logo.webp">
 </head>
 <body>
-    <header>
+    <header onclick="window.location.href='./'" style="cursor: pointer;">
         <div class="logo-container">
-            <img src="assets/side.games_logo.png" alt="Side Games Logo" class="logo">
-            <h1>Welcome to Side.Games - Game Development</h1>
+            <img src="assets/side.games_logo.webp" alt="Side Games Logo" class="logo">
+            <h1>Side.Games - Game Development</h1>
         </div>
     </header>
 
-    <section class="game-section">
-        <div class="game-card">
-            <img src="assets/move-on_logo.png" alt="Game 0 Image">
+    <main class="games-grid">
+        <div class="game-card" onclick="window.location.href='moveon.html'">
+            <img src="assets/moveon_logo.webp" alt="Move On Image">
             <h2>Move On</h2>
             <p>Move On is a 2D Platformer made for the <a href="https://itch.io/jam/fsmpi-winter-gamejam-2425/results">2025 Winter GameJam</a> held by the RWTH Aachen. The theme was "Nothing is permanent".</p>
             <br>
             <p>Your goal is to complete four different levels by collecting the flag at the end of each one. But dont wait for too long because only the fastest can make it onto the leaderboard!</p>
-            <a href="https://j20a05n.itch.io/move-on" class="btn">Play Now</a>
+            <a href="./moveon" class="btn">Learn More</a>
         </div>
-    </section>
 
-    <section class="game-section">
-        <div class="game-card">
-            <img src="assets/choros_logo.png" alt="Game 1 Image">
+        <div class="game-card" onclick="window.location.href='choros.html'">
+            <img src="assets/choros_logo.webp" alt="Choros Image">
             <h2>Choros</h2>
-            <p>Choros is a 2d action space shooter game. Your goal is to stay alive as long as possibler while fighting off lots of enemies and bosses.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.Side.Games.Choros" class="btn">Play Now</a>
+            <p>Choros is a 2d action space shooter game. Your goal is to stay alive as long as possible while fighting off lots of enemies and bosses.</p>
+            <a href="./choros" class="btn">Learn More</a>
         </div>
-    </section>
 
-    <section class="game-section">
-        <div class="game-card">
-            <img src="assets/sac_logo.png" alt="Game 2 Image">
+        <div class="game-card" onclick="window.location.href='sac.html'">
+            <img src="assets/sac_logo.webp" alt="S.A.C. Image">
             <h2>S.A.C.</h2>
-            <p>S.A.C. you are a Secret agent who works for the company S.A.C.! Your mission is to prevent a new company from building a deadly weapon. In order to do so you have to steal documents from their offices and take out some of their employees.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.Side.Games.S.A.C" class="btn">Play Now</a>
+            <p>S.A.C. you are a Secret agent who works for the company S.A.C.! Your mission is to prevent a new company from building a deadly weapon.</p>
+            <a href="./sac" class="btn">Learn More</a>
         </div>
-    </section>
 
-    <section class="game-section">
-        <div class="game-card">
-            <img src="assets/catadventure_logo.png" alt="Game 3 Image">
+        <div class="game-card" onclick="window.location.href='catadventure.html'">
+            <img src="assets/catadventure_logo.webp" alt="Cat Adventure Image">
             <h2>Cat Adventure</h2>
-            <p>Cat Adventure is a Run and Gun Plattformer Game in which you have to catch the mouse at the end of each level to get to the next one. The game features over 30 levels three different worlds and a bossfight at the end.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.Side.Games.CatAdventure" class="btn">Play Now</a>
+            <p>Cat Adventure is a Run and Gun Plattformer Game in which you have to catch the mouse at the end of each level to get to the next one.</p>
+            <a href="./catadventure" class="btn">Learn More</a>
         </div>
-    </section>
+    </main>
 
     <footer>
         <div class="footer-content">
-            
             <p>&copy; Copyright 2020-<script>document.write(new Date().getFullYear())</script>, Side.Games. All rights reserved.</p>
             <a href="https://www.youtube.com/@sidegames4706" target="_blank" class="youtube-link-btn">YouTube</a>
         </div>
