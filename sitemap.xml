@@ -36,19 +36,4 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-    
-    <!-- External Links (optional) -->
-    <url>
-        <loc>https://play.google.com/store/apps/dev?id=5915548106474059742</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.youtube.com/@sidegames4706</loc>
-        <lastmod>2025-04-08</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
-    </url>
 </urlset>
