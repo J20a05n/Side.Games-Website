@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage -->
     <url>
-        <loc>https://www.sidegames.janphilippkleinschmidt.com/</loc>
+        <loc>https://sidegames.janphilippkleinschmidt.com/</loc>
         <lastmod>2025-04-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -10,28 +10,28 @@
     
     <!-- Game Pages -->
     <url>
-        <loc>https://www.sidegames.janphilippkleinschmidt.com/moveon.html</loc>
+        <loc>https://sidegames.janphilippkleinschmidt.com/moveon</loc>
         <lastmod>2025-04-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://www.sidegames.janphilippkleinschmidt.com/choros.html</loc>
+        <loc>https://sidegames.janphilippkleinschmidt.com/choros</loc>
         <lastmod>2025-04-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://www.sidegames.janphilippkleinschmidt.com/sac.html</loc>
+        <loc>https://sidegames.janphilippkleinschmidt.com/sac</loc>
         <lastmod>2025-04-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://www.sidegames.janphilippkleinschmidt.com/catadventure.html</loc>
+        <loc>https://sidegames.janphilippkleinschmidt.com/catadventure</loc>
         <lastmod>2025-04-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
