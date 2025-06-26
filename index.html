@@ -1,59 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Side.Games",
+    "url": "https://www.sidegames.janphilippkleinschmidt.com/",
+    "logo": "https://www.sidegames.janphilippkleinschmidt.com/assets/side.games_logo.webp",
+    "description": "Side.Games - Game Development. Play our games Move On, Choros, S.A.C and Cat Adventure",
+    "foundingDate": "2020",
+    "founders": [
+        {
+        "@type": "Person",
+        "name": "Jan Philipp Kleinschmidt"
+        },
+        {
+        "@type": "Person",
+        "name": "Arian Farahani"
+        }
+    ],
+    "sameAs": [
+        "https://www.youtube.com/@sidegames4706",
+        "https://janphilippkleinschmidt.com",
+        "https://www.arianfarahani.com"
+    ]
+    }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official Side.Games Website">
+    <meta name="description" content="Side.Games - Game Development. Play our games Move On, Choros, S.A.C and Cat Adventure">
     <title>Side.Games - Game Development</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/webp" href="assets/side.games_logo.webp">
     <link rel="canonical" href="https://www.sidegames.janphilippkleinschmidt.com/"/>
 </head>
 <body>
-    <header onclick="window.location.href='./'" style="cursor: pointer;">
-        <div class="logo-container">
-            <img src="assets/side.games_logo.webp" alt="Side Games Logo" class="logo">
-            <h1>Side.Games - Game Development</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-container">
+                    <img src="assets/side.games_logo.webp" alt="Side Games Logo" class="logo">
+                    <span class="logo-text">Side.Games</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <main class="games-grid">
-        <div class="game-card" onclick="window.location.href='./moveon'">
-            <img src="assets/moveon_logo.webp" alt="Move On Image">
-            <h2>Move On</h2>
-            <p>Move On is a 2D Platformer made for the <a href="https://itch.io/jam/fsmpi-winter-gamejam-2425/results">2025 Winter GameJam</a> held by the RWTH Aachen. The theme was "Nothing is permanent".</p>
-            <br>
-            <p>Your goal is to complete four different levels by collecting the flag at the end of each one. But dont wait for too long because only the fastest can make it onto the leaderboard!</p>
-            <a href="./moveon" class="btn">Learn More</a>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Side Games - <span class="highlight">Game Development</span></h1>
+                <p class="subtitle">Passionate indie game developers crafting unique gaming experiences</p>
+                <a href="#games" class="btn btn-primary">Explore Our Games</a>
+            </div>
         </div>
+    </section>
 
-        <div class="game-card" onclick="window.location.href='./choros'">
-            <img src="assets/choros_logo.webp" alt="Choros Image">
-            <h2>Choros</h2>
-            <p>Choros is a 2d action space shooter game. Your goal is to stay alive as long as possible while fighting off lots of enemies and bosses.</p>
-            <a href="./choros" class="btn">Learn More</a>
+    <section id="games" class="games-section">
+        <div class="container">
+            <h2 class="section-title">Our <span class="highlight">Games</span></h2>
+            
+            <div class="game-cards">
+                <!-- Move On -->
+                <div class="game-card" data-game="moveon">
+                    <div class="game-card-content">
+                        <img src="assets/moveon_logo.webp" alt="Move On" class="game-logo">
+                        <h3>Move On</h3>
+                        <div class="game-tags">
+                            <span class="tag">Platformer</span>
+                            <span class="tag">Game Jam</span>
+                        </div>
+                        <p>A 2D Platformer made for the 2025 Winter GameJam with the theme "Nothing is permanent".</p>
+                        <a href="https://j20a05n.itch.io/move-on" class="btn btn-outline" target="_blank">Play Now</a>
+                    </div>
+                </div>
+                
+                <!-- Choros -->
+                <div class="game-card" data-game="choros">
+                    <div class="game-card-content">
+                        <img src="assets/choros_logo.webp" alt="Choros" class="game-logo">
+                        <h3>Choros</h3>
+                        <div class="game-tags">
+                            <span class="tag">Shooter</span>
+                            <span class="tag">Action</span>
+                        </div>
+                        <p>A 2D action space shooter game where you fight off waves of enemies.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.Side.Games.Choros" class="btn btn-outline" target="_blank">Play Now</a>
+                    </div>
+                </div>
+                
+                <!-- S.A.C. -->
+                <div class="game-card" data-game="sac">
+                    <div class="game-card-content">
+                        <img src="assets/sac_logo.webp" alt="S.A.C." class="game-logo">
+                        <h3>S.A.C.</h3>
+                        <div class="game-tags">
+                            <span class="tag">Stealth</span>
+                            <span class="tag">Action</span>
+                        </div>
+                        <p>You're a Secret Agent working for S.A.C.! Prevent a deadly weapon from being built.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.Side.Games.S.A.C" class="btn btn-outline" target="_blank">Play Now</a>
+                    </div>
+                </div>
+                
+                <!-- Cat Adventure -->
+                <div class="game-card" data-game="catadventure">
+                    <div class="game-card-content">
+                        <img src="assets/catadventure_logo.webp" alt="Cat Adventure" class="game-logo">
+                        <h3>Cat Adventure</h3>
+                        <div class="game-tags">
+                            <span class="tag">Platformer</span>
+                            <span class="tag">Adventure</span>
+                        </div>
+                        <p>A Run and Gun Platformer where you play as a cat on a mission.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.Side.Games.CatAdventure" class="btn btn-outline" target="_blank">Play Now</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </section>
 
-        <div class="game-card" onclick="window.location.href='./sac'">
-            <img src="assets/sac_logo.webp" alt="S.A.C. Image">
-            <h2>S.A.C.</h2>
-            <p>S.A.C. you are a Secret agent who works for the company S.A.C.! Your mission is to prevent a new company from building a deadly weapon.</p>
-            <a href="./sac" class="btn">Learn More</a>
+    <section id="game-details" class="game-details-section">
+        <div class="container">
+            <div class="game-details-container">
+                <div class="game-media">
+                    <div class="game-carousel">
+                        <div class="carousel-inner"></div>
+                        <button class="carousel-control prev">&#10094;</button>
+                        <button class="carousel-control next">&#10095;</button>
+                    </div>
+                </div>
+                <div class="game-info">
+                    <h2 class="game-title">Select a Game</h2>
+                    <p class="game-description">Click on any game card to view more details</p>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="game-card" onclick="window.location.href='./catadventure'">
-            <img src="assets/catadventure_logo.webp" alt="Cat Adventure Image">
-            <h2>Cat Adventure</h2>
-            <p>Cat Adventure is a Run and Gun Plattformer Game in which you have to catch the mouse at the end of each level to get to the next one.</p>
-            <a href="./catadventure" class="btn">Learn More</a>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Us</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Side.Games is an indie game development studio passionate about creating fun and engaging gaming experiences.</p>
+                    <p>We specialize in mobile and PC games with unique mechanics and stylish visuals.</p>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@sidegames4706" class="social-link youtube" target="_blank">
+                            <span class="icon">▶</span> YouTube
+                        </a>
+                        <a href="https://janphilippkleinschmidt.com" class="social-link website" target="_blank">
+                            <span class="icon">🌐</span> Jan´s Website (Co-founder)
+                        </a>
+                        <a href="https://www.arianfarahani.com" class="social-link website" target="_blank">
+                            <span class="icon">🌐</span> Arian´s Website (Co-founder)
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/side.games_logo.webp" alt="Side.Games Team">
+                </div>
+            </div>
         </div>
-    </main>
+    </section>
 
-    <footer>
-        <div class="footer-content">
-            <p>&copy; Copyright 2020-<script>document.write(new Date().getFullYear())</script>, Side.Games. All rights reserved.</p>
-            <a href="https://www.youtube.com/@sidegames4706" target="_blank" class="youtube-link-btn">YouTube</a>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Copyright 2020-<span id="current-year"></span>, Side.Games. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
